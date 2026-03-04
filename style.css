@@ -14,6 +14,17 @@ margin:0 auto;
     line-height:120px;
     background:#417aa8;
     color:#fff;
+ }
+.content{
+    width:90%;
+    margin:auto;
+    height:420px;
+    padding:0.1px;
+    background:#fff;
+    color:#333;
 }
+    
+
+
 
 
