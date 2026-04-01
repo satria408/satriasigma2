@@ -1,107 +1,56 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Latihan Layout</title>
+body{
+background:#f3f3f3;
+color:#333;
+width:100%;
+font-family:sans-serif;
+margin:0 auto;
+}
 
-    <style>
-        body{
-            background:#f3f3f3;
-            color:#333;
-            width:100%;
-            font-family:sans-serif;
-            margin:0 auto;
-        }
-
-        .header{
-            width:90%;
-            margin:auto;
-            height:120px;
-            line-height:120px;
-            background:#417aa8;
-            color:#fff;
-        }
-
-        .jarak{
-            padding:0 2pc;
-        }
-
-        .content{
-            width:90%;
-            margin:auto;
-            height:420px;
-            padding:0.1px;
-            background:#fff;
-            color:#333;
-        }
-
-        .border{
-            border:2px solid #4887b9;
-            margin-top:1pc;
-            padding-bottom:1pc;
-            padding-left:2pc;
-            padding-right:2pc;
-        }
-
-        .kiri{
-            width:70%;
-            float:left;
-            background:#fff;
-            height:420px;
-        }
-
-        .kanan{
-            width:30%;
-            float:right;
-            background:#fff;
-            height:420px;
-        }
-
-        .footer{
-            width:90%;
-            margin:auto;
-            height:60px;
-            line-height:60px;
-            background:#417aa8;
-            color:#fff;
-            text-align:center;
-        }
-
-        .btn{
-            background:#417aa8;
-            color:#fff;
-            border:none;
-            padding:10px;
-            cursor:pointer;
-        }
-
-        .undecor{
-            text-decoration:none;
-            color:#333;
-        }
-
-        /* clear float */
-        .content::after{
-            content:"";
-            display:block;
-            clear:both;
-        }
-    </style>
-
-</head>
-<body>
-
+.header{
+    width:90%;
+    margin:auto;
+    height:120px;
+    line-height:120px;
+    background:#417aa8;
+    color:#fff;
+ }
+.jarak{
+    padding:0 2pc;
+}
 <div class="header">
     <div class="jarak">
-        <h2>Belajar Membuat Layout dengan HTML dan CSS</h2>
+      <h2>Belajar Membuat Layout dengan HTML dan CSS</h2>
     </div>
 </div>
 
+.content{
+    width:90%;
+    margin:auto;
+    height:420px;
+    padding:0.1px;
+    background:#fff;
+    color:#333;
+ }
+.border{
+    border:2px solid #4887b9;
+    margin-top:1pc;
+    padding-bottom:1pc;
+    padding-left:2pc;
+    padding-right:2pc;
+ }
+
+.kiri{
+    width:70%;
+    float:left;
+    margin:auto;
+    background:#fff;
+    height:420px;
+ }
 <div class="content">
     <div class="jarak">
-
         <!-- kiri -->
         <div class="kiri">
-
+            <!-- blog -->
             <div class="border">
                 <div class="jarak">
                     <h3>Lorem Ipsum</h3>
@@ -109,7 +58,9 @@
                     <button class="btn">Read More ..</button>
                 </div>
             </div>
+            <!-- end blog -->
 
+            <!-- blog -->
             <div class="border">
                 <div class="jarak">
                     <h3>Lorem Ipsum</h3>
@@ -117,8 +68,9 @@
                     <button class="btn">Read More ..</button>
                 </div>
             </div>
-
+            <!-- end blog -->
         </div>
+        <!-- kiri -->
 
         <!-- kanan -->
         <div class="kanan">
@@ -134,7 +86,7 @@
                 <p><a href="#" class="undecor">Ajax</a></p>
             </div>
         </div>
-
+        <!-- kanan -->
     </div>
 </div>
 
@@ -143,10 +95,6 @@
         <p>copyright 2021 codekop all reserved</p>
     </div>
 </div>
-
-</body>
-</html>
-
 
     
 
