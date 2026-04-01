@@ -15,12 +15,14 @@ margin:0 auto;
     background:#417aa8;
     color:#fff;
  }
-jarak{
-
-padding:0 2pc;
-
+.jarak{
+    padding:0 2pc;
 }
-
+<div class="header">
+    <div class="jarak">
+      <h2>Belajar Membuat Layout dengan HTML dan CSS</h2>
+    </div>
+</div>
 
 .content{
     width:90%;
